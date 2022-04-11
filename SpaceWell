@@ -1,0 +1,10 @@
+1) WebServer Vs AppServer
+   WebServer - static html pages, only HTTP requests
+   AppServer - Dynamic html pages, HTTP + other requests
+2) RUN vs CMD
+3) maven life cycle
+4) Jenkins continue on failure
+5) pipeline run from a specific stage   
+6) How ansible tower connects to a host
+7) DOCKER VS VIRTUALIZATION
+8) SSH VS SSL

@@ -16,5 +16,8 @@
    if anything goes wrong, we can see which stage had the problem; 
    for example. We even have the ability to add in verification before we proceed.
    We have the ability to run stages in parallel so we could have multiple tests executing in separate branches very easily.
+11) What is blue ocean
+12) How to create a service in linux
+13) Different types of Linux package managers
 
 

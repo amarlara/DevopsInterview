@@ -2,6 +2,8 @@
    WebServer - static html pages, only HTTP requests
    AppServer - Dynamic html pages, HTTP + other requests
 2) RUN vs CMD
+   RUN - command triggers while we build the docker image.
+   CMD - command triggers while we launch the created docker image.
 3) maven life cycle
 4) Jenkins continue on failure
 5) pipeline run from a specific stage   

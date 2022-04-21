@@ -1,0 +1,27 @@
+Kony Labs - interview experience
+
+Tell me about youself, workexperience
+
+Java Questions
+ - cross platform (jvm, bytecode)
+ - JIT 
+
+Algorithms 
+ - Double Linked List - skip k elements
+
+Programming
+ - Merge two sorted arrays in reverse order
+
+Bash script
+ - read a file and get the value of a key
+
+Ansible
+ - write a playbook to install tomcat
+
+What you could have done better
+
+ - read more about java
+ - prepare algorithms
+ - write hands on code
+ - 
+

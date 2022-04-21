@@ -1,0 +1,70 @@
+
+class Node {
+    .
+    .
+    .
+    Node next;
+}
+
+void insert(Node head, Node toInsert, int index) {
+    // start with head, lp_index = 0
+    // loop until lp_index < index otherwise throw error.
+
+    Node temp = head;
+    int lp_index = 0;
+    if(index==0){
+        toInsert->next = temp;
+        head = toInsert;
+        return;
+    }
+    while((index-1) > lp_index && temp->next != null){
+        temp = temp->next;
+        lp_index++;
+
+        // index = 4, lp_index = 1, temp = b
+        // 4, 2, c
+        // 4, 3, d
+
+    }
+    if(lp_index == (index-1)){
+        toInsert->next = temp->next; // e => b ...
+        temp->next = toInsert; // a => e => b ..
+        return;
+    }
+    else{
+        System.out.println("Index doesn't exist");
+    }
+}
+0 -> 1 -> 2 -> 3
+a => b => c => d  (e, 10)
+a => e => b => c => d
+
+
+Node head = new Node(.....);
+insert(head, new Node(...), 0);
+head = ??
+
+
+
+
+void invert(Node head) {
+    // 3 pointers,
+    // previous = null
+    // curr = head;
+    // next = null;
+
+    //iterate over list until curr is not null
+
+    // next = curr->next;  b, c
+    // curr->next = prev; null, a
+    // prev = curr; a, b
+    // curr = next; b, c
+
+    // a->null, b->....
+    // b->a->null, c->...
+
+
+
+}
+a => b => c => d
+d => c => b => a
